@@ -19,5 +19,14 @@ public class Main {
 		System.out.println(h1.money);
 		h1.money = 300;
 		System.out.println(h2.money);
+		
+		Account a = new Account();
+		a.balance = 100;
+		a.accountNumber = "128";
+		Account b = new Account();
+		b.balance = 100;
+		b.accountNumber = " 128";
+		System.out.println(a);
+		System.out.println(a.equals(b));
 	}
 }
